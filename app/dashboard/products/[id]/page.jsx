@@ -10,8 +10,8 @@ const SingleProductPage = () => {
         Lap
       </div>
       <div className={styles.formContainer}>
-        <form action={updateProduct} className={styles.form}>
-          <input type="hidden" name="id" value={product.id} />
+        <form action="" className={styles.form}>
+          <input type="hidden" name="id" value="" />
           <label>Title</label>
           <input type="text" name="title" placeholder="titile" />
           <label>Price</label>
